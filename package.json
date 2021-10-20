@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-output-differ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "2.0.0",
+    "preact": "10.5.15"
+  }
+}

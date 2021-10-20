@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+npm-debug.log
+.cache
+.parcel-cache
+dist
+cypress/screenshots/
+cypress/videos/
