@@ -203,6 +203,7 @@ export default class extends Component {
               className="w-100 h4"
               name="before"
               onChange={this.handleChanged}
+              onPaste={this.handleChanged}
             />
           </div>
           <div>
@@ -211,6 +212,7 @@ export default class extends Component {
               className="w-100 h4"
               name="after"
               onChange={this.handleChanged}
+              onPaste={this.handleChanged}
             />
           </div>
           <div>
